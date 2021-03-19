@@ -40,10 +40,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC530MinimumAbsoluteDifferenceInBst {
 
     public static void main(String[] args) {
-        Solution solution = new LC530MinimumAbsoluteDifferenceInBst().new Solution();
+        Solution solution = new LC530MinimumAbsoluteDifferenceInBst.Solution();
         System.out.println(solution.getMinimumDifference(create(1, null, 5, 3)));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

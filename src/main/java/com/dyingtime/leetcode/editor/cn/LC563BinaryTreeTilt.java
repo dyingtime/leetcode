@@ -63,11 +63,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC563BinaryTreeTilt {
 
     public static void main(String[] args) {
-        Solution solution = new LC563BinaryTreeTilt().new Solution();
+        Solution solution = new LC563BinaryTreeTilt.Solution();
         TreeNode root = create(4, 2, 9, 3, 5, null, 7);
         System.out.println(solution.findTilt(root));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

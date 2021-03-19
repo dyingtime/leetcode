@@ -39,10 +39,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC501FindModeInBinarySearchTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC501FindModeInBinarySearchTree().new Solution();
+        Solution solution = new LC501FindModeInBinarySearchTree.Solution();
         System.out.println(Arrays.toString(solution.findMode(create(1, null, 2, 2))));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

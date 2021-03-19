@@ -24,11 +24,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.create;
 public class LC404SumOfLeftLeaves {
 
     public static void main(String[] args) {
-        Solution solution = new LC404SumOfLeftLeaves().new Solution();
+        Solution solution = new LC404SumOfLeftLeaves.Solution();
         TreeNode root = create(3, 9, 20, null, null, 15, 7);
         System.out.println(solution.dfs(root));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

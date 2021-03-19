@@ -29,11 +29,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC543DiameterOfBinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC543DiameterOfBinaryTree().new Solution();
+        Solution solution = new LC543DiameterOfBinaryTree.Solution();
         TreeNode root = create(4, -7, -3, null, null, -9, -3, 9, -7, -4, null, 6, null, -6, -6, null, null, 0, 6, 5, null, 9, null, null, -1, -4, null, null, null, -2);
         System.out.println(solution.diameterOfBinaryTree(root));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

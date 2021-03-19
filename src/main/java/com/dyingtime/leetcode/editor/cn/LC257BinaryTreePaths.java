@@ -30,9 +30,10 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC257BinaryTreePaths {
 
     public static void main(String[] args) {
-        Solution solution = new LC257BinaryTreePaths().new Solution();
+        Solution solution = new LC257BinaryTreePaths.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

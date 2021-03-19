@@ -39,11 +39,12 @@ import com.dyingtime.leetcode.editor.cn.base.TreeUtils;
 public class LC101SymmetricTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC101SymmetricTree().new Solution();
+        Solution solution = new LC101SymmetricTree.Solution();
         TreeNode root = TreeUtils.create(1, 2, 2, null, 3, null, 3);
         System.out.println(solution.isSymmetric(root));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

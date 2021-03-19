@@ -44,10 +44,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC965UnivaluedBinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC965UnivaluedBinaryTree().new Solution();
+        Solution solution = new LC965UnivaluedBinaryTree.Solution();
         System.out.println(solution.isUnivalTree(create(2, 2, 2, 5, 2)));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

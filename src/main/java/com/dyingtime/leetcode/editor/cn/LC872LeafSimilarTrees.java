@@ -65,10 +65,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC872LeafSimilarTrees {
 
     public static void main(String[] args) {
-        Solution solution = new LC872LeafSimilarTrees().new Solution();
+        Solution solution = new LC872LeafSimilarTrees.Solution();
         solution.leafSimilar(create(3, 5, 1, 6, 2, 9, 8, null, null, 7, 14), create(3, 5, 1, 6, 71, 4, 2, null, null, null, null, null, null, 9, 8));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

@@ -41,10 +41,11 @@ import com.dyingtime.leetcode.editor.cn.base.TreeNode;
 public class LC108ConvertSortedArrayToBinarySearchTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC108ConvertSortedArrayToBinarySearchTree().new Solution();
+        Solution solution = new LC108ConvertSortedArrayToBinarySearchTree.Solution();
         System.out.println(solution.sortedArrayToBST(new int[]{-10, -3, 0, 5, 9}));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

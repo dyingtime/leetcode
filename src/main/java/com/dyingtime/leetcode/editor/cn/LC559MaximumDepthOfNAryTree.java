@@ -49,28 +49,29 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC559MaximumDepthOfNAryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC559MaximumDepthOfNAryTree().new Solution();
+        Solution solution = new LC559MaximumDepthOfNAryTree.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public List<Node> children;
+    /**
+     // Definition for a Node.
+     class Node {
+     public int val;
+     public List<Node> children;
 
-    public Node() {}
+     public Node() {}
 
-    public Node(int _val) {
-        val = _val;
-    }
+     public Node(int _val) {
+     val = _val;
+     }
 
-    public Node(int _val, List<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-};
-*/
+     public Node(int _val, List<Node> _children) {
+     val = _val;
+     children = _children;
+     }
+     };
+     */
 
     class Solution {
         public int maxDepth(Node root) {

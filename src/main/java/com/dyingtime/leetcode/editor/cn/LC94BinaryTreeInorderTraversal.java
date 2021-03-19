@@ -64,9 +64,10 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC94BinaryTreeInorderTraversal {
 
     public static void main(String[] args) {
-        Solution solution = new LC94BinaryTreeInorderTraversal().new Solution();
+        Solution solution = new LC94BinaryTreeInorderTraversal.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

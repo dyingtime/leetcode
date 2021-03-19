@@ -21,10 +21,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC739DailyTemperatures {
 
     public static void main(String[] args) {
-        Solution solution = new LC739DailyTemperatures().new Solution();
+        Solution solution = new LC739DailyTemperatures.Solution();
         ArrayUtils.print(solution.dailyTemperatures(new int[]{73, 74, 75, 71, 69, 72, 76, 73}));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] dailyTemperatures(int[] T) {

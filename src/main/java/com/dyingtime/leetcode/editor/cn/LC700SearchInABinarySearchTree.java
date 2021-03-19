@@ -35,10 +35,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC700SearchInABinarySearchTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC700SearchInABinarySearchTree().new Solution();
+        Solution solution = new LC700SearchInABinarySearchTree.Solution();
         prettyPrintTree(solution.searchBST(create(4, 2, 7, 1, 3), 2));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

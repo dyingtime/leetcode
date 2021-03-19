@@ -65,9 +65,10 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC20ValidParentheses {
 
     public static void main(String[] args) {
-        Solution solution = new LC20ValidParentheses().new Solution();
+        Solution solution = new LC20ValidParentheses.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isValid(String s) {

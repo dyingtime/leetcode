@@ -29,10 +29,11 @@ package com.dyingtime.leetcode.editor.cn;
 public class LC28ImplementStrstr {
 
     public static void main(String[] args) {
-        Solution solution = new LC28ImplementStrstr().new Solution();
+        Solution solution = new LC28ImplementStrstr.Solution();
         System.out.println(solution.strStr("aabbba", "bba"));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int strStr(String haystack, String needle) {

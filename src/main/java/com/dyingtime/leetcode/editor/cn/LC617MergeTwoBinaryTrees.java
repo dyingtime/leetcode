@@ -35,11 +35,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC617MergeTwoBinaryTrees {
 
     public static void main(String[] args) {
-        Solution solution = new LC617MergeTwoBinaryTrees().new Solution();
+        Solution solution = new LC617MergeTwoBinaryTrees.Solution();
         TreeNode node = solution.mergeTrees(create(1, 3, 2, 5), create(2, 1, 3, null, 4, null, 7));
         prettyPrintTree(node);
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

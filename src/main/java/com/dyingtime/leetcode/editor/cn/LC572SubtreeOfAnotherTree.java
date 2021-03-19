@@ -56,10 +56,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.create;
 public class LC572SubtreeOfAnotherTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC572SubtreeOfAnotherTree().new Solution();
+        Solution solution = new LC572SubtreeOfAnotherTree.Solution();
         System.out.println(solution.isSubtree(create(3, 4, 5, 1, 2, null, null, 0), create(4, 1, 2)));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

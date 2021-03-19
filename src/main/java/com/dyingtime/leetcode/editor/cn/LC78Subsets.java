@@ -40,10 +40,11 @@ import java.util.List;
 public class LC78Subsets {
 
     public static void main(String[] args) {
-        Solution solution = new LC78Subsets().new Solution();
+        Solution solution = new LC78Subsets.Solution();
         solution.subsets(new int[]{1, 2, 3});
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<List<Integer>> subsets(int[] nums) {

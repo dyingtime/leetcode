@@ -56,10 +56,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC496NextGreaterElementI {
 
     public static void main(String[] args) {
-        Solution solution = new LC496NextGreaterElementI().new Solution();
+        Solution solution = new LC496NextGreaterElementI.Solution();
         ArrayUtils.print(solution.nextGreaterElement(new int[]{2, 4}, new int[]{1, 2, 3, 4}));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] nextGreaterElement(int[] nums1, int[] nums2) {

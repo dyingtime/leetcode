@@ -59,10 +59,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC1022SumOfRootToLeafBinaryNumbers {
 
     public static void main(String[] args) {
-        Solution solution = new LC1022SumOfRootToLeafBinaryNumbers().new Solution();
+        Solution solution = new LC1022SumOfRootToLeafBinaryNumbers.Solution();
         System.out.println(solution.sumRootToLeaf(create(1, 0, 1, 0, 1, 0, 1)));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

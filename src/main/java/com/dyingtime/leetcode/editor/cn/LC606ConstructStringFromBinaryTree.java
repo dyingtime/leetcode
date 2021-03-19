@@ -46,11 +46,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC606ConstructStringFromBinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC606ConstructStringFromBinaryTree().new Solution();
+        Solution solution = new LC606ConstructStringFromBinaryTree.Solution();
         TreeNode root = create(1, 2, 3, null, 4);
         System.out.println(solution.tree2str(root));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

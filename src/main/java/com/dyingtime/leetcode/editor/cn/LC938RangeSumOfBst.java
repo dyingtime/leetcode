@@ -40,10 +40,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC938RangeSumOfBst {
 
     public static void main(String[] args) {
-        Solution solution = new LC938RangeSumOfBst().new Solution();
+        Solution solution = new LC938RangeSumOfBst.Solution();
         System.out.println(solution.rangeSumBST(create(10, 5, 15, 3, 7, 13, 18, 1, null, 6), 6, 10));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

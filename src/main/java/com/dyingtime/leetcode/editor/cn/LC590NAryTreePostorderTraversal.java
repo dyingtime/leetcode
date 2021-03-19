@@ -58,9 +58,10 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC590NAryTreePostorderTraversal {
 
     public static void main(String[] args) {
-        Solution solution = new LC590NAryTreePostorderTraversal().new Solution();
+        Solution solution = new LC590NAryTreePostorderTraversal.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 /*
 // Definition for a Node.

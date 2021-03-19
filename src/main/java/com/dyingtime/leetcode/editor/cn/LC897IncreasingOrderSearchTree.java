@@ -57,11 +57,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC897IncreasingOrderSearchTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC897IncreasingOrderSearchTree().new Solution();
+        Solution solution = new LC897IncreasingOrderSearchTree.Solution();
         TreeNode node = solution.increasingBST(create(1, null, 2, null, 3, null, 4, null, 5, null, 6, null, 7, null, 8, null, 9));
         prettyPrintTree(node);
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

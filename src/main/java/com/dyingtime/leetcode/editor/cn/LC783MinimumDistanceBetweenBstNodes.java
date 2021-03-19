@@ -41,10 +41,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC783MinimumDistanceBetweenBstNodes {
 
     public static void main(String[] args) {
-        Solution solution = new LC783MinimumDistanceBetweenBstNodes().new Solution();
+        Solution solution = new LC783MinimumDistanceBetweenBstNodes.Solution();
         System.out.println(solution.minDiffInBST(create(1, null, 5, 3)));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

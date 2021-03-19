@@ -48,9 +48,10 @@ import java.util.HashMap;
 
 public class LC1TwoSum {
     public static void main(String[] args) {
-        Solution solution = new LC1TwoSum().new Solution();
+        Solution solution = new LC1TwoSum.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] nums, int target) {

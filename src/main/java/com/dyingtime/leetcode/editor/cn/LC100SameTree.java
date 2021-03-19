@@ -45,12 +45,13 @@ import com.dyingtime.leetcode.editor.cn.base.TreeUtils;
 public class LC100SameTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC100SameTree().new Solution();
+        Solution solution = new LC100SameTree.Solution();
         TreeNode p = TreeUtils.create(1, 1, 2);
         TreeNode q = TreeUtils.create(1, 1, 3);
         System.out.println(solution.isSameTree(p, q));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

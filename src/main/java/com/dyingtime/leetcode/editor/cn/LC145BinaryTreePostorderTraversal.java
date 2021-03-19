@@ -27,9 +27,10 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC145BinaryTreePostorderTraversal {
 
     public static void main(String[] args) {
-        Solution solution = new LC145BinaryTreePostorderTraversal().new Solution();
+        Solution solution = new LC145BinaryTreePostorderTraversal.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

@@ -39,10 +39,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC637AverageOfLevelsInBinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC637AverageOfLevelsInBinaryTree().new Solution();
+        Solution solution = new LC637AverageOfLevelsInBinaryTree.Solution();
         System.out.println(solution.averageOfLevels(create(3, 9, 20, null, null, 15, 7)));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

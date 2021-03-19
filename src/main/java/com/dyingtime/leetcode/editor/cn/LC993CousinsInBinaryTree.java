@@ -57,9 +57,10 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC993CousinsInBinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC993CousinsInBinaryTree().new Solution();
+        Solution solution = new LC993CousinsInBinaryTree.Solution();
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

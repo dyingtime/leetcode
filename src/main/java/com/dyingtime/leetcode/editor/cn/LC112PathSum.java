@@ -47,11 +47,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.create;
 public class LC112PathSum {
 
     public static void main(String[] args) {
-        Solution solution = new LC112PathSum().new Solution();
+        Solution solution = new LC112PathSum.Solution();
         TreeNode root = create(5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1);
         System.out.println(solution.hasPathSum(root, 22));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

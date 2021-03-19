@@ -26,11 +26,12 @@ import com.dyingtime.leetcode.editor.cn.base.TreeUtils;
 public class LC104MaximumDepthOfBinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC104MaximumDepthOfBinaryTree().new Solution();
+        Solution solution = new LC104MaximumDepthOfBinaryTree.Solution();
         TreeNode root = TreeUtils.create(3, 9, 20, null, null, 15, 7);
         System.out.println(solution.maxDepth(root));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

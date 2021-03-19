@@ -53,11 +53,12 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.create;
 public class LC113PathSumIi {
 
     public static void main(String[] args) {
-        Solution solution = new LC113PathSumIi().new Solution();
+        Solution solution = new LC113PathSumIi.Solution();
         TreeNode root = create(5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1);
         System.out.println(solution.pathSum(root, 22));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

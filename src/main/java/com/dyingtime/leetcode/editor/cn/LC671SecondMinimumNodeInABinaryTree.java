@@ -49,10 +49,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC671SecondMinimumNodeInABinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC671SecondMinimumNodeInABinaryTree().new Solution();
+        Solution solution = new LC671SecondMinimumNodeInABinaryTree.Solution();
         System.out.println(solution.findSecondMinimumValue(create(5, 8, 5)));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

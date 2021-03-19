@@ -48,10 +48,11 @@ import static com.dyingtime.leetcode.editor.cn.base.TreeUtils.*;
 public class LC653TwoSumIvInputIsABst {
 
     public static void main(String[] args) {
-        Solution solution = new LC653TwoSumIvInputIsABst().new Solution();
+        Solution solution = new LC653TwoSumIvInputIsABst.Solution();
         System.out.println(solution.findTarget(create(5, 3, 6, 2, 4, null, 7), 9));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

@@ -49,11 +49,12 @@ import com.dyingtime.leetcode.editor.cn.base.TreeUtils;
 public class LC110BalancedBinaryTree {
 
     public static void main(String[] args) {
-        Solution solution = new LC110BalancedBinaryTree().new Solution();
+        Solution solution = new LC110BalancedBinaryTree.Solution();
         TreeNode root = TreeUtils.create(1, 2, 2, 3, 3, null, null, 4, 4);
         System.out.println(solution.isBalanced(root));
     }
 
+    static
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
