@@ -1,6 +1,7 @@
 package com.dyingtime.leetcode.editor.cn;
 
 import com.dyingtime.leetcode.editor.cn.base.TreeNode;
+import com.dyingtime.leetcode.editor.cn.base.TreeUtils;
 
 //给你二叉树的根结点 root ，请你将它展开为一个单链表： 
 //
@@ -51,6 +52,7 @@ public class LC114FlattenBinaryTreeToLinkedList {
 
     public static void main(String[] args) {
         Solution solution = new LC114FlattenBinaryTreeToLinkedList.Solution();
+        solution.flatten(TreeUtils.create(1, null, 2, null, 3, null, 4, null, 5, null, 6));
     }
 
     static
@@ -82,7 +84,6 @@ public class LC114FlattenBinaryTreeToLinkedList {
             root.left = null;
 
             TreeNode p = root;
-
             while (p.right != null) {
                 p = p.right;
             }
