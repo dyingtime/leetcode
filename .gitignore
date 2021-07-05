@@ -3,3 +3,5 @@
 /leetcode.iml
 all.json
 translation.json
+*.txt
+*.md
